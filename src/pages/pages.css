@@ -1,0 +1,53 @@
+.wellcome-header {
+    text-align: center;
+    width: 60vw;
+    padding: 50px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 255, 47, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 10px;
+    box-shadow: -8px 10px 25px rgba(0, 0, 0, 0.5);
+    margin-left:20%;
+    margin-top:10%;
+}
+
+.brand,
+.wellcome,
+.to{
+    margin:0;
+}
+
+.wellcome,
+.to{
+    color:rgb(72, 72, 214);
+}
+
+.brand{
+    color:rgb(5, 5, 114)
+}
+p{
+    color:rgb(56, 48, 102)
+}
+
+.auth-button{
+    margin:10px;
+}
+
+.signup,
+.signin {
+    margin: 10px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(227, 78, 229);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.signup:hover,
+.signin:hover {
+    background-color: rgb(190, 50, 192); 
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(190, 50, 192, 0.6);
+}
+

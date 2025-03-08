@@ -1,0 +1,204 @@
+/* Sign-in page styles */
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* Form header */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  /* Form layout */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Password visibility toggle */
+  .show-password {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .show-password input {
+    margin-right: 5px;
+  }
+  
+  .show-password label {
+    color: #333;
+  }
+  
+  /* Sign-in button */
+  .btn-warning {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e68900;
+  }
+  
+  /* Sign-up link */
+  .note {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .note span {
+    color: red;
+  }
+  
+  .note a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .note a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 768px) {
+    .sign-in {
+      height: 100vh;
+      width: 100vw;
+    }
+  
+    .container {
+      width: 50%;
+      max-width: 400px;
+      padding: 30px;
+    }
+  
+    input {
+      font-size: 18px;
+    }
+  
+    .btn-warning {
+      padding: 12px 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      width: 40%;
+    }
+  
+    input {
+      font-size: 20px;
+    }
+  
+    .btn-warning {
+      padding: 14px 28px;
+    }
+  }
+
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .note {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .note span {
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .show-password {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  
+  .show-password input {
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-warning {
+    background-color: #ff9800;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e68900;
+  }
+  
+  .text-danger {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
